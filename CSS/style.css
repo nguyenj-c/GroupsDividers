@@ -1,0 +1,52 @@
+body{
+    background: aquamarine;
+}
+form {
+    display: block;
+    width: 60%;
+    text-align: center;
+    margin: 50px auto 0px;
+}
+label {
+    display: contents;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center;
+}
+input[type="number"],
+label {
+    margin: .4rem 0;
+    width: 50%;
+}
+section {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1, footer{
+    text-align: center;
+    margin: 40px;
+}
+table{
+    border: 2px solid black;
+    outline-style: groove;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    border: 2px solid black;
+    outline-style: groove;
+}
+p,h2{
+    margin-bottom: 30px;
+}
+a{
+    border: 1px solid white;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 15px auto 15px;
+    display: table;
+}
