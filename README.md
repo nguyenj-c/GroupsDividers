@@ -1,4 +1,4 @@
-# HotHotHot Front End
+# Groups Dividers
 
 Created as part of the course [ECUE15] entitled "Development of dynamic Web sites and referencing".
 

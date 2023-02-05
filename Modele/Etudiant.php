@@ -4,7 +4,7 @@ final class Etudiant
 {
     private $groupe;
 
-    public function traitementFichier(){   // fonction qui sert à remplacer les points virgules par des espaces pour le fichier csv lors de la première utilisation voir Liste-Etudiants...Original.csv
+    private function traitementFichier(){   // fonction qui sert à remplacer les points virgules par des espaces pour le fichier csv lors de la première utilisation voir Liste-Etudiants...Original.csv
         $str = file_get_contents("Liste-Etudiants-LPDevWeb_2021-2022.csv");
         $file = str_replace(";"," ",$str);
         $file1 = fopen("Liste-Etudiants-LPDevWeb_2021-2022.csv", "w+");
